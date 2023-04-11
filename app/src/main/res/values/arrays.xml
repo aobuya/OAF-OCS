@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ * Copyright 2013-2016 OCSInventory-NG/AndroidAgent contributors : mortheres, cdpointpoint,
+ * Cédric Cabessa, Nicolas Ricquemaque, Anael Mobilia
+ *
+ * This file is part of OCSInventory-NG/AndroidAgent.
+ *
+ * OCSInventory-NG/AndroidAgent is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * OCSInventory-NG/AndroidAgent is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with OCSInventory-NG/AndroidAgent. if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+-->
+<resources>
+    <string-array name="cacheInterval">
+        <item name="i300">@string/pref_list_freq_5mn</item>
+        <item name="i900">@string/pref_list_freq_15mn</item>
+        <item name="i1800">@string/pref_list_freq_30mn</item>
+        <item name="i3600">@string/pref_list_freq_1h</item>
+    </string-array>
+
+    <string-array name="cacheIntervalValues" translatable="false">
+        <item name="i300">300000</item>
+        <item name="i900">900000</item>
+        <item name="i1800">1800000</item>
+        <item name="i3600">3600000</item>
+    </string-array>
+
+    <string-array name="automodeNetwork">
+        <item name="r0">@string/pref_list_Network_noroaming</item>
+        <item name="r1">@string/pref_list_Network_any</item>
+        <item name="r2">@string/pref_list_Network_wifi</item>
+    </string-array>
+    <string-array name="automodeNetworkValues" translatable="false">
+        <item name="r0">0</item>
+        <item name="r1">1</item>
+        <item name="r2">2</item>
+    </string-array>
+
+    <string-array name="hideNotif">
+        <item name="h0">@string/pref_list_hideNotif_none</item>
+        <item name="h1">@string/pref_list_hideNotif_inventory</item>
+        <item name="h2">@string/pref_list_hideNotif_download</item>
+        <item name="h3">@string/pref_list_hideNotif_all</item>
+    </string-array>
+    <string-array name="hideNotifValues" translatable="false">
+        <item name="h0">0</item>
+        <item name="h1">1</item>
+        <item name="h2">2</item>
+        <item name="h3">3</item>
+    </string-array>
+
+
+</resources>

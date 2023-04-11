@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ * Copyright 2013-2016 OCSInventory-NG/AndroidAgent contributors : mortheres, cdpointpoint,
+ * Cédric Cabessa, Nicolas Ricquemaque, Anael Mobilia
+ *
+ * This file is part of OCSInventory-NG/AndroidAgent.
+ *
+ * OCSInventory-NG/AndroidAgent is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * OCSInventory-NG/AndroidAgent is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with OCSInventory-NG/AndroidAgent. if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+-->
+<resources>
+    <string name="menu_settings">Configuration</string>
+    <string name="menu_import">Import de la configuration</string>
+    <string name="menu_export">Export de la configuration</string>
+    <string name="menu_about">A propos</string>
+
+
+    <string name="status_init">Prêt</string>
+    <string name="title_bt_launch">Envoyer l\'inventaire</string>
+    <string name="title_bt_show">Afficher l\'inventaire</string>
+    <string name="title_bt_save">Enregistrer l\'inventaire</string>
+    <string name="title_activity_ocsconfig">Configuration</string>
+    <string name="ocs_ng">OCSInventory\nNG</string>
+    <string name="title_activity_show_inventory">Inventaire</string>
+    <string name="state_saved">Inventaire enregistré sur la carte SD</string>
+    <string name="state_send_prolog">Envoi du prolog au serveur</string>
+    <string name="state_send_inventory">Envoi de l\'inventaire au serveur</string>
+    <string name="state_sent_inventory">Inventaire transmis</string>
+    <string name="state_send_error">Erreur de transmission</string>
+    <string name="state_send_start">Transmission</string>
+    <string name="state_build_inventory">Inventaire en cours</string>
+
+    <string name="nty_inventory_sent">Inventaire transmis au serveur OCS</string>
+    <string name="nty_title">Notification OCS-NG</string>
+
+    <string name="msg_conf_exported">Configuration exportée</string>
+    <string name="msg_conf_imported">Configuration importée</string>
+
+    <string name="unit_hour">heures</string>
+    <string name="unit_minutes">minutes</string>
+
+    <string name="err_cant_connect">Impossible de contacter : </string>
+    <string name="nty_downloads">Paquets téléchargés disponibles</string>
+    <string name="pref_description_syshide">Ne pas inclure les logiciels systèmes</string>
+    <string name="title_activity_ocslaunch">Installation</string>
+    <string name="start_download_service">Lancement du service d\'update</string>
+    <string name="must_accept_permissions">Vous devez accepter toutes les permissions</string>
+
+</resources>

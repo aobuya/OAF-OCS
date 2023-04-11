@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ * Copyright 2013-2016 OCSInventory-NG/AndroidAgent contributors : mortheres, cdpointpoint,
+ * Cédric Cabessa, Nicolas Ricquemaque, Anael Mobilia
+ *
+ * This file is part of OCSInventory-NG/AndroidAgent.
+ *
+ * OCSInventory-NG/AndroidAgent is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * OCSInventory-NG/AndroidAgent is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with OCSInventory-NG/AndroidAgent. if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+-->
+<RelativeLayout android:id="@+id/id_agent"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|fill"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/statusBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/status_init"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btSendInventory"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="102dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ocs_landscape"/>
+
+    <Button
+        android:id="@+id/btSendInventory"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_effect"
+        android:text="@string/title_bt_launch"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btSaveInventory"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btShowInventory"
+        android:layout_alignStart="@+id/btShowInventory"
+        android:layout_below="@+id/btShowInventory"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_effect"
+        android:text="@string/title_bt_save"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btShowInventory"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btSendInventory"
+        android:layout_alignStart="@+id/btSendInventory"
+        android:layout_below="@+id/btSendInventory"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_effect"
+        android:text="@string/title_bt_show"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

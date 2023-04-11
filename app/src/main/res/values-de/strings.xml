@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ * Copyright 2013-2016 OCSInventory-NG/AndroidAgent contributors : mortheres, cdpointpoint,
+ * Cédric Cabessa, Nicolas Ricquemaque, Anael Mobilia
+ *
+ * This file is part of OCSInventory-NG/AndroidAgent.
+ *
+ * OCSInventory-NG/AndroidAgent is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * OCSInventory-NG/AndroidAgent is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with OCSInventory-NG/AndroidAgent. if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+-->
+<resources>
+    <string name="menu_settings">Konfiguration</string>
+    <string name="menu_import">Import</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_about">Info</string>
+
+
+    <string name="status_init">Bereit</string>
+    <string name="title_bt_launch">Inventarisierung senden</string>
+    <string name="title_bt_show">Inventarisierung anzeigen</string>
+    <string name="title_bt_save">Inventarisierung speichern</string>
+    <string name="title_activity_ocsconfig">OCS Konfigurationszustand</string>
+    <string name="ocs_ng">OCSInventory\nNG</string>
+    <string name="title_activity_show_inventory">Zeige Inventarisierungszustand</string>
+    <string name="state_saved">Inventarisierung auf der SD-Karte gespeichert</string>
+    <string name="state_send_prolog">Prolog an Server senden</string>
+    <string name="state_send_inventory">Inventarisierung an den Server senden</string>
+    <string name="state_sent_inventory">Inventarisierung übertragen</string>
+    <string name="state_send_error">Übertragungsfehler</string>
+    <string name="state_send_start">Übertragung</string>
+    <string name="state_build_inventory">Aktuelle Inventarisierung</string>
+
+    <string name="nty_inventory_sent">Inventarisierung an den Server senden</string>
+    <string name="nty_title">OCS-NG Benachrichtigung</string>
+
+    <string name="msg_conf_exported">Konfiguration exportiert</string>
+    <string name="msg_conf_imported">Konfiguration importiert</string>
+
+    <string name="unit_hour">Stunden</string>
+    <string name="unit_minutes">Minuten</string>
+
+    <string name="err_cant_connect">Unmögliche Verbindung auf :</string>
+    <string name="nty_downloads">Heruntergeladene Pakete availables</string>
+    <string name="pref_description_compua">Useragent 2.0 für Vereinbarkeit</string>
+    <string name="pref_summaryOff_compua">Strom useragent</string>
+    <string name="pref_summaryOn_compua">Benutzer-Agent 2.0</string>
+    <string name="pref_title_compua">Useragent Vereinbarkeit</string>
+    <string name="title_activity_ocslaunch">Installation</string>
+    <string name="start_download_service">Starten des Update-Service</string>
+    <string name="must_accept_permissions">Sie müssen alle Berechtigungen akzeptieren</string>
+
+</resources>
